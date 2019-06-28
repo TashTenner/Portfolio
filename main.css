@@ -1,0 +1,23 @@
+/*font-family: 'Rubik', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pink {
+  border-bottom: 3px solid #ac79cb;
+}
+
+.footer-line {
+  border-top: 3px solid #ac79cb;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.page-line {
+  border-top: 3px solid #ac79cb;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
