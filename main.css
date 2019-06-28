@@ -27,6 +27,12 @@ ul {
 a {
   text-decoration: none;
 }
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 45px;
+}
+
 .lila {
   border-bottom: 3px solid #ac79cb;
 }
