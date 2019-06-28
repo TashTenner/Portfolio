@@ -3,13 +3,8 @@
   <head>
     <title>Tash Tenner - Developer & Linguist</title>
     <meta charset="utf-8" />
-    <!--Google Fonts, Cyrillic, Hebrew-->
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic,cyrillic-ext,latin-ext");
-    </style>
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap&subset=cyrillic,hebrew,latin-ext");
-    </style>
+    <!--Viewport meta tag allows us to control the viewport’s size and scale.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--CSS, reset, normalize, main-->
     <link rel="stylesheet" type="text/css" href="./reset.css" />
     <link rel="stylesheet" type="text/css" href="./normalize.css" />
@@ -18,13 +13,14 @@
   <body>
     <div class="wrapper">
       <!--HEADER-->
-      <header class="nav pink">
+      <header class="nav">
         <ul class="ul">
           <li class="li"><a href="hello-world">Hello World</a></li>
           <li class="li"><a href="projects">Projects</a></li>
           <li class="li"><a href="about-me">About Me</a></li>
         </ul>
       </header>
+      <div class="lila-nav"></div>
       <!--1.HELLO WORLD-->
       <section id="hello-world">
         <!--1.1.TITLE-->
@@ -44,62 +40,84 @@
           <p>Hello World! I am Tash,</p>
           <span class="change-text">#Linguist</span>
         </div>
-        <div class="page-line"></div>
       </section>
+      <div class="lila"></div>
       <!--2.PROJECTS-->
       <section id="projects">
-        <div class="flex-container">
-          <!--2.1.PERSONAL WEBSITE-->
-          <div class="flex-item">
-            <a href="projects/website">
-              <div class="flex-image">
-                <img class="project-image" alt="Personal Website logo" />
-                <!--src=""-->
-              </div>
-              <div class="flex-title">
+        <div class="general-box-projects">
+          <div class="project-title">
+            <span>Projects</span>
+          </div>
+          <!--2.1.PROJECT LIST-->
+          <div class="project-flex">
+            <!--2.1.1.PERSONAL WEBSITE-->
+            <div class="project-flex-item">
+              <div class="flex-center">
                 <span>Personal Website</span>
               </div>
-            </a>
-          </div>
-          <!--2.2.FONETIKAS GAME-->
-          <div class="flex-item">
-            <a href="projects/fonetikas">
-              <div class="flex-image">
-                <img class="project-image" alt="Fonetikas logo" />
-                <!--src=""-->
+              <div class="project-image-box flex-center">
+                <img
+                  class="project-image"
+                  src="./340x120.png"
+                  alt="Personal Website logo"
+                />
               </div>
-              <div class="flex-title">
+              <div class="project-details">
+                <span>Lorem Ipsum - textblock</span>
+              </div>
+            </div>
+            <!--2.2.FONETIKAS GAME-->
+            <div class="project-flex-item">
+              <div class="flex-center">
                 <span>Fonetikas</span>
               </div>
-            </a>
-          </div>
-          <!--2.3.HOCHZEIT-->
-          <div class="flex-item">
-            <a href="projects/hochzeit">
-              <div class="flex-image">
-                <img class="project-image" alt="Hochzeit logo" />
-                <!--src=""-->
+              <div class="project-image-box flex-center">
+                <img
+                  class="project-image"
+                  src="./340x120.png"
+                  alt="Fonetikas logo"
+                />
               </div>
-              <div class="flex-title">
+              <div class="project-details">
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+            <!--2.3.HOCHZEIT-->
+            <div class="project-flex-item">
+              <div class="flex-center">
                 <span>Hochzeit</span>
               </div>
-            </a>
-          </div>
-          <!--2.4.BAILO.APP WEB-->
-          <div class="flex-item">
-            <a href="projects/bailo-app-web">
-              <div class="flex-image">
-                <img class="project-image" alt="Bailo.app Web logo" />
-                <!--src=""-->
+              <div class="project-image-box flex-center">
+                <img
+                  class="project-image"
+                  src="./340x120.png"
+                  alt="Hochzeit logo"
+                />
               </div>
-              <div class="flex-title">
+              <div class="project-details">
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+            <!--2.4.BAILO.APP WEB-->
+            <div class="project-flex-item">
+              <div class="flex-center">
                 <span>Bailo.app Web</span>
               </div>
-            </a>
+              <div class="project-image-box flex-center">
+                <img
+                  class="project-image"
+                  src="./340x120.png"
+                  alt="Bailo.app Web logo"
+                />
+              </div>
+              <div class="project-details">
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="page-line"></div>
       </section>
+      <div class="lila"></div>
       <!--3.ABOUT ME-->
       <section id="about-me">
         <!--3.1.TITLE-->
@@ -134,9 +152,9 @@
         <img alt="" />
         <!--src=""-->
       </section>
+      <div class="lila"></div>
       <!--4.FOOTER-->
       <footer>
-        <div class="footer-line"></div>
         <div>
           <a href="mailto:tashfonetikas@gmail.com?subject=Hi from Website"
             >©2019 Tash Tenner</a

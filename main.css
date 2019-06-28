@@ -1,12 +1,37 @@
 /*font-family: 'Rubik', sans-serif;
 font-family: 'Montserrat', sans-serif;*/
 
+/*Font to be used for Hebrew*/
+/*@import url("https://fonts.googleapis.com/css?family=Rubik:300&display=swap&subset=cyrillic,hebrew,latin-ext");*/
+
+/*Google Fonts, Cyrillic, Hebrew*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic,cyrillic-ext,latin-ext");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  min-height: 100%;
+}
+
 ul {
   display: flex;
   justify-content: space-evenly;
 }
 
-.pink {
+a {
+  text-decoration: none;
+}
+.lila {
+  border-bottom: 3px solid #ac79cb;
+}
+
+.lila-nav {
   border-bottom: 3px solid #ac79cb;
 }
 
@@ -20,4 +45,36 @@ ul {
   border-top: 3px solid #ac79cb;
   margin-top: 35px;
   margin-bottom: 15px;
+}
+
+#hello-world,
+#projects,
+#about-me,
+footer,
+.lila {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+}
+
+.project-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
