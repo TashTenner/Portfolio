@@ -17,6 +17,7 @@ body {
   padding-right: 0px;
   padding-left: 0px;
   min-height: 100%;
+  background-color: #f5f0f9;
 }
 
 ul {
@@ -31,6 +32,11 @@ a {
 h1 {
   font-size: 1.5rem;
   line-height: 45px;
+  text-align: center;
+}
+h2 {
+  font-size: 1.15rem;
+  line-height: 35px;
 }
 
 .lila {
@@ -53,7 +59,7 @@ h1 {
   margin-bottom: 15px;
 }
 
-#hello-world,
+#hello,
 #projects,
 #about-me,
 footer,
@@ -83,4 +89,8 @@ header {
 .flex-center {
   display: flex;
   justify-content: center;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
 }
